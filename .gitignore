@@ -1,0 +1,22 @@
+.idea
+.vscode
+__pycache__
+build
+dist
+*.egg-info
+build
+docs/_build
+docs\_build
+
+# Common Python entries
+*.py[cod]
+*.so
+*.dylib
+*.egg
+*.egg-info
+.eggs
+*.log
+*.pot
+.venv/
+
+.DS_Store

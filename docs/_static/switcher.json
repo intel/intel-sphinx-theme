@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Classic Blue",
+        "version": "default",
+        "url": "/default/"
+    },
+    {
+        "name": "Tiber",
+        "version": "tb",
+        "url": "/tb/"
+    }
+]
