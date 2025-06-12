@@ -1,0 +1,110 @@
+[data-theme='light'] {
+    --spark-header-background: var(--spark-color-tb-theme-dark-gray100);
+    --spark-squares-header-background: var(--spark-color-tb-theme-dark-gray100);
+    --spark-header-color: var(--spark-color-white, #ffffff);
+    --spark-header-color-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+        hue-rotate(178deg) brightness(103%) contrast(103%);
+    --spark-header-color-filter-dropdown: brightness(0) saturate(100%) invert(30%) sepia(5%)
+        saturate(622%) hue-rotate(188deg) brightness(94%) contrast(96%);
+    --spark-header-color-active-item: var(--spark-color-aqua-tint2);
+    --spark-header-background-hover-button: var(--spark-color-tb-theme-dark-gray75, #070c21);
+    --spark-header-background-pressed-button: var(--spark-color-tb-theme-dark-gray50);
+    --spark-header-button-color-action: var(--spark-color-tb-theme-light-gray50, #ffffff);
+    --spark-header-gradient-color-start: var(--spark-color-cosmos-shade1);
+    --spark-header-gradient-color-center: #057aff;
+    --spark-header-gradient-color-end: var(--spark-color-aqua);
+    --spark-header-hover: var(--spark-color-cobalt-shade2);
+    --spark-header-hover-text: var(--spark-color-text-inverse);
+}
+
+[data-theme='dark'] {
+    --spark-header-background: var(--spark-color-tb-theme-dark-gray200);
+    --spark-squares-header-background: var(--spark-color-tb-theme-dark-gray200);
+    --spark-header-color: var(--spark-color-white, #ffffff);
+    --spark-header-color-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+        hue-rotate(178deg) brightness(103%) contrast(103%);
+    --spark-header-color-filter-dropdown: brightness(0) saturate(100%) invert(100%) sepia(0%)
+        saturate(7500%) hue-rotate(178deg) brightness(103%) contrast(103%);
+    --spark-header-color-active-item: var(--spark-color-white, #ffffff);
+    --spark-header-background-hover-button: var(--spark-color-tb-theme-dark-gray75, #070c21);
+    --spark-header-button-color-action: var(--spark-color-tb-theme-dark-gray50);
+    --spark-header-gradient-color-start: var(--spark-color-cosmos-shade1);
+    --spark-header-gradient-color-center: #057aff;
+    --spark-header-gradient-color-end: var(--spark-color-aqua);
+    --spark-header-hover: var(--spark-color-cobalt-shade2);
+    --spark-header-hover-text: var(--spark-color-text-inverse);
+}
+
+[data-header='default'] {
+    --spark-header-item-line-height: 3.44em;
+}
+
+[data-theme='light'][data-header='default'] {
+    --spark-color-button-field: var(--spark-header-background);
+    --spark-text-color-button-field: var(--spark-header-color);
+}
+
+[data-header='default'][data-theme='dark'] {
+    --spark-color-button-field: var(--spark-header-background);
+    --spark-text-color-button-field: var(--spark-color-text-base);
+}
+
+[data-header='spark-color'] {
+    --spark-header-item-line-height: 3.32em;
+}
+
+[data-header='spark-color'][data-theme='light'] {
+    --spark-color-button-field: var(--spark-header-background);
+    --spark-text-color-button-field: var(--spark-header-color);
+}
+
+[data-header='spark-color'][data-theme='dark'] {
+    --spark-color-button-field: var(--spark-header-background);
+    --spark-text-color-button-field: var(--spark-color-text-base);
+}
+
+[data-header='spark-squares'] {
+    --spark-header-item-line-height: 3.875rem;
+    --spark-header-background: var(--spark-squares-header-background);
+    --spark-header-background-hover-button: rgba(0, 91, 133, 0.12);
+}
+
+[data-header='spark-squares'][data-theme='light'] {
+    --spark-color-button-field: var(--spark-header-background);
+    --spark-text-color-button-field: var(--spark-header-color);
+}
+
+[data-header='spark-squares'][data-theme='dark'] {
+    --spark-color-button-field: var(--spark-header-background);
+    --spark-text-color-button-field: var(--spark-color-text-base);
+}
+
+:root {
+    --spark-header-font-weight: 400;
+    --spark-header-font-size: 0.875rem;
+    --spark-header-margin-inline-start: 2rem;
+    --spark-header-margin-inline-end: 2rem;
+    --spark-header-shadow: 0.0625rem;
+    --spark-header-shadow-color: rgba(36, 37, 40, 0.1);
+    --spark-header-padding: 0.5rem;
+    --spark-header-border-bottom: 0.25rem;
+    --spark-header-project-font-weight: 500;
+    --spark-header-project-display: flex;
+    --spark-header-project-font-size: 1rem;
+    --spark-header-brand-padding: 0.5rem;
+    --spark-header-item-display: flex;
+    --spark-header-item-align-items: center;
+    --spark-header-item-block-size: 100%;
+    --spark-header-item-cursor: pointer;
+    --spark-header-item-font-weight: 400;
+    --spark-header-item-border-block-end: 2px solid transparent;
+    --spark-header-s-block-size: 3rem;
+    --spark-header-s-inline-size: 3rem;
+    --spark-header-s-line-height: 3rem;
+    --spark-header-m-block-size: 4rem;
+    --spark-header-m-inline-size: 4rem;
+    --spark-header-m-line-height: 4rem;
+    --spark-header-l-block-size: 5rem;
+    --spark-header-l-inline-size: 5rem;
+    --spark-header-l-line-height: 5rem;
+}

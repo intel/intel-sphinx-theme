@@ -1,0 +1,55 @@
+{% extends "pydata_sphinx_theme/layout.html" %}
+
+{% block css %}
+  {{ super() }}
+  <script data-cfasync="false">
+    document.documentElement.dataset.header = "{{ header_variant }}" || "default";
+    document.documentElement.dataset.footer = "{{ footer_variant }}" || "default";
+    document.documentElement.dataset.contentWidth = "{{ content_width }}" || "medium";
+    document.documentElement.dataset.colorScheme = "{{ color_scheme }}" || "default";
+  </script>
+  <script src="{{ pathto('_static/scripts/intel_sphinx_theme.js', 1) }}"></script>
+  {%- if color_scheme == 'tb' -%}
+    <link rel="stylesheet" href="{{ pathto('_static/css/intel_sphinx_theme_tb.css', 1) }}" type="text/css" />
+  {% else %}
+    <link rel="stylesheet" href="{{ pathto('_static/css/intel_sphinx_theme.css', 1) }}" type="text/css" />
+  {%- endif %}
+{% endblock css %}
+
+{% block extrahead %}
+  {{ super() }}
+  {%- if theme_default_favicon %}
+    <!-- Using a single favicon for all color schemes -->
+    <link rel="icon" type="image/svg+xml" href="{{ pathto('_static/favicon.svg', 1) }}">
+    <!-- Fallback for browsers that don't support SVG favicons -->
+    <link rel="alternate icon" href="{{ pathto('_static/favicon.ico', 1) }}">
+  {% endif %}
+{% endblock extrahead %}
+
+{% block docs_navbar %}
+  <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    {%- if header_variant == 'spark-color' -%}
+      {%- include "sections/header-line.html" %}
+    {%- endif %}
+    {# Include the standard header.html #}
+    {%- include "sections/header.html" %}
+  </header>
+{% endblock docs_navbar %}
+
+{% block footer %}
+  {%- if footer_variant != 'simple' and footer_variant != 'line' -%}
+    <footer class="bd-footer">
+      {%- include "sections/footer.html" %}
+    </footer>
+  {%- endif %}
+  {%- if footer_variant == 'simple' -%}
+    <footer class="bd-footer">
+      {%- include "sections/footer/footer-simple.html" %}
+    </footer>
+  {%- endif %}
+  {%- if footer_variant == 'line' -%}
+    <footer class="bd-footer">
+      {%- include "sections/footer/footer-line.html" %}
+    </footer>
+  {%- endif %}
+{% endblock footer %}

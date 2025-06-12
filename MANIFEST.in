@@ -1,0 +1,4 @@
+include intel_sphinx_theme/theme.conf
+include intel_sphinx_theme/theme.toml
+recursive-include intel_sphinx_theme/static *
+recursive-include intel_sphinx_theme/templates *.html
