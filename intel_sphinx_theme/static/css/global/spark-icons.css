@@ -1,0 +1,67 @@
+/* Home icon */
+ul.bd-breadcrumbs li.breadcrumb-item a svg {
+    display: none;
+}
+
+.breadcrumb-home a::before {
+    font-family: 'spark-icon';
+    font-size: 24px;
+    content: '\f1c9';
+    display: inline-block;
+}
+
+/* Breadcrumb chevron */
+ul.bd-breadcrumbs li.breadcrumb-item:not(.breadcrumb-home):before {
+    font-family: 'spark-icon';
+    font-size: 24px;
+    font-weight: 400;
+    content: '\f162';
+}
+
+/* Navbar */
+/* Search */
+.search-button-field svg {
+    display: none;
+}
+
+.search-button-field:before {
+    font-family: 'spark-icon';
+    font-size: 20px;
+    font-weight: 400;
+    content: '\f1df';
+}
+
+/* Right sidebar */
+
+svg:not(:host).svg-inline--fa,
+svg:not(:root).svg-inline--fa {
+    display: none;
+}
+
+div.tocsection.sourcelink a:before {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f198';
+}
+
+.onthispage svg {
+    display: none;
+}
+
+.onthispage:before {
+    font-family: 'spark-icon';
+    font-size: 14px;
+    content: '\f1d9';
+}
+
+/* Copybutton */
+
+button.copybtn svg {
+    display: none;
+}
+
+div.highlight button.copybtn:not(.success):before {
+    font-family: 'spark-icon';
+    font-size: 14px;
+    content: '\f17e';
+}

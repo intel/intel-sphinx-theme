@@ -1,0 +1,234 @@
+html[data-theme='light'] {
+    --spark-color-background: var(--spark-color-theme-light-gray50);
+    --spark-color-layer1: var(--spark-color-theme-light-gray75);
+    --spark-color-layer2: var(--spark-color-theme-light-gray75);
+    --spark-color-text-base: var(--spark-color-theme-light-gray900);
+    --spark-color-text-inverse: var(--spark-color-theme-light-gray50);
+    --spark-color-primary: var(--spark-color-classic-blue);
+    --spark-color-secondary: var(--spark-color-classic-blue-shade1);
+    --spark-color-border: var(--spark-color-theme-light-gray400);
+    --spark-color-link: var(--spark-color-classic-blue);
+    --spark-color-surface: var(--spark-color-theme-light-gray200);
+    /* --spark-color-shadow: var(--spark-color-theme-light-gray900); */
+    --spark-color-text-muted: var(--spark-color-theme-light-gray800);
+    --spark-color-muted: var(--spark-color-theme-light-gray800);
+    --spark-color-link: var(--spark-color-classic-blue);
+    --spark-color-link-visited: #8f5da2;
+    --spark-color-sidebar-toggle: var(--spark-color-theme-light-gray200);
+    --bs-nav-link-color: var(--spark-color-surface);
+    --bs-dropdown-border-radius: 0;
+    --bs-border-radius: 0;
+    --spark-color-info: var(--spark-color-primary);
+}
+
+html[data-theme='light'] {
+    --pst-color-link-hover: var(--spark-color-classic-blue);
+    --pst-color-text-base: var(--spark-color-theme-light-gray900);
+    --pst-color-border: var(--spark-color-theme-light-gray400);
+    --pst-color-link: var(--spark-color-classic-blue);
+    /* --pst-color-shadow: var(--spark-color-theme-light-gray900); */
+    --pst-color-link: var(--spark-color-classic-blue);
+    --pst-color-target: var(--spark-color-classic-blue-tint2);
+    /* Set up base colors */
+    --pst-color-primary: var(--spark-color-classic-blue);
+    --pst-color-primary-highlight: var(--spark-color-classic-blue-shade1);
+    --pst-color-primary-text: var(--spark-color-text-inverse);
+    --pst-color-primary-bg: #ceebfc;
+
+    /* Secondary is moss */
+    --pst-color-secondary: var(--spark-color-electric-moss);
+    --pst-color-secondary-highlight: hsl(from var(--spark-color-electric-moss) h s 80%);
+    --pst-color-secondary-text: var(--spark-color-text-base);
+    --pst-color-secondary-bg: hsl(from var(--spark-color-electric-moss) h s 80%);
+
+    --pst-color-accent: var(--spark-color-classic-blue-shade2);
+    --pst-color-accent-highlight: var(--spark-color-classic-blue-tint2);
+    --pst-color-accent-text: var(--spark-color-text-inverse);
+    --pst-color-accent-bg: var(--spark-color-classic-blue-tint1);
+
+    --pst-color-info: var(--pst-color-primary);
+    --pst-color-info-highlight: var(--pst-color-primary-highlight);
+    --pst-color-info-text: var(--spark-color-text-inverse);
+    --pst-color-info-bg: var(--pst-color-primary-bg);
+
+    --pst-color-success: var(--spark-color-success);
+    --pst-color-success-highlight: var(--spark-color-success-soft);
+    --pst-color-success-text: var(--spark-color-text-inverse);
+    --pst-color-success-bg: var(--spark-color-success-background);
+
+    --pst-color-warning: var(--spark-color-warning);
+    --pst-color-warning-highlight: var(--spark-color-warning-soft);
+    --pst-color-warning-text: var(--spark-color-text);
+    --pst-color-warning-bg: var(--spark-color-warning-background);
+
+    --pst-color-danger: var(--spark-color-error);
+    --pst-color-danger-highlight: var(--spark-color-error-soft);
+    --pst-color-danger-text: var(--spark-color-text-inverse);
+    --pst-color-danger-bg: var(--spark-color-error-background);
+
+    --pst-color-muted: var(--spark-color-theme-light-gray800);
+    --pst-color-muted-text: var(--spark-color-theme-light-gray50);
+    --pst-color-muted-highlight: var(--spark-color-theme-light-gray800);
+    --pst-color-muted-bg: var(--spark-color-theme-light-gray800);
+
+    --pst-color-dark: var(--spark-color-theme-light-gray900);
+    --pst-color-dark-highlight: var(--spark-color-theme-light-gray800);
+    --pst-color-dark-text: var(--spark-color-theme-light-gray50);
+    --pst-color-dark-bg: var(--spark-color-theme-light-gray900);
+
+    --pst-color-light: var(--spark-color-theme-light-gray50);
+    --pst-color-light-highlight: var(--spark-color-theme-light-gray100);
+    --pst-color-light-text: var(--spark-color-theme-light-gray900);
+    --pst-color-light-bg: var(--spark-color-theme-light-gray50);
+
+    /* White color set */
+    --pst-color-white: var(--spark-color-theme-light-gray50);
+    --pst-color-white-highlight: var(--spark-color-theme-light-gray100);
+    --pst-color-white-text: var(--spark-color-black);
+    --pst-color-white-bg: var(--spark-color-theme-light-gray50);
+
+    /* Black color set */
+    --pst-color-black: var(--spark-color-theme-light-gray900);
+    --pst-color-black-highlight: var(--spark-color-theme-light-gray800);
+    --pst-color-black-text: var(--spark-color-white);
+    --pst-color-black-bg: var(--spark-color-theme-light-gray900);
+
+    /* Layers */
+    --pst-color-background: var(--spark-color-background);
+    --pst-color-on-background: var(--spark-color-layer1);
+    --pst-color-surface: var(--spark-color-layer1);
+    --pst-color-on-surface: var(--spark-color-text-base);
+
+    /* Tables */
+    --pst-color-table: var(--pst-color-on-surface);
+    --pst-color-table-row-hover-bg: var(--spark-color-layer2);
+    --pst-color-table-inner-border: var(--spark-color-border);
+    --pst-color-table-outer-border: var(--pst-color-surface);
+    --pst-color-table-heading-bg: var(--pst-color-surface);
+    --pst-color-table-row-zebra-high-bg: var(--pst-color-on-background);
+    --pst-color-table-row-zebra-low-bg: var(--pst-color-surface);
+    --bs-table-bg: var(--pst-color-background);
+}
+
+html[data-theme='dark'] {
+    --spark-color-background: var(--spark-color-theme-dark-gray50);
+    --spark-color-layer1: var(--spark-color-theme-dark-gray200);
+    --spark-color-layer2: var(--spark-color-theme-dark-gray200);
+    --spark-color-text-base: var(--spark-color-theme-dark-gray900);
+    --spark-color-text-inverse: var(--spark-color-theme-dark-gray50);
+    --spark-color-primary: var(--spark-color-energy-blue);
+    --spark-color-secondary: var(--spark-color-energy-blue-tint1);
+    --spark-color-border: var(--spark-color-theme-dark-gray500);
+    --spark-color-link: var(--spark-color-energy-blue);
+    --spark-color-surface: var(--spark-color-theme-dark-gray200);
+    --spark-color-highlight: var(--spark-color-daisy-tint1);
+    --spark-color-highlight-text-base: var(--spark-color-theme-light-gray900);
+    /* --spark-color-shadow: var(--spark-color-theme-dark-gray900); */
+    --spark-color-text-muted: var(--spark-color-theme-dark-gray800);
+    --spark-color-muted: var(--spark-color-theme-dark-gray800);
+    --spark-color-link: var(--spark-color-energy-blue);
+    --spark-color-link-visited: #eec3f7;
+    --spark-color-sidebar-toggle: var(--spark-color-theme-light-gray200);
+    --bs-dropdown-border-radius: 0;
+    --bs-border-radius: 0;
+    --spark-color-info: var(--spark-color-primary);
+}
+
+html[data-theme='dark'] {
+    --pst-color-link-hover: var(--spark-color-energy-blue);
+    --pst-color-text-base: var(--spark-color-theme-dark-gray900);
+    --pst-color-border: var(--spark-color-theme-dark-gray500);
+    /* --pst-color-shadow: var(--spark-color-theme-dark-gray900); */
+    --pst-color-link: var(--spark-color-primary);
+    --pst-color-target: var(--spark-color-energy-blue-tint2);
+
+    --pst-color-inline-code-links: var(--spark-color-primary);
+
+    /* Set up base colors */
+
+    /* Primary is energy blue */
+    --pst-color-primary: var(--spark-color-energy-blue);
+    --pst-color-primary-highlight: var(--spark-color-energy-blue-tint1);
+    --pst-color-primary-text: var(--spark-color-text-inverse);
+    --pst-color-primary-bg: hsl(from var(--spark-color-energy-blue-shade2) h s 20%);
+
+    /* Secondary is moss */
+    --pst-color-secondary: var(--spark-color-electric-moss);
+    --pst-color-secondary-highlight: var(--spark-color-moss-tint2);
+    --pst-color-secondary-text: var(--spark-color-text-inverse);
+    --pst-color-secondary-bg: hsl(from var(--spark-color-moss-shade2) h s 20%);
+
+    /* Accent is ??? */
+    --pst-color-accent: var(--spark-color-energy-blue-tint2);
+    --pst-color-accent-highlight: var(--spark-color-energy-blue-tint3);
+    --pst-color-accent-text: var(--spark-color-text-inverse);
+    --pst-color-accent-bg: var(--spark-color-energy-blue-tint2);
+
+    /* Info is light classic blue */
+    --pst-color-info: var(--pst-color-primary);
+    --pst-color-info-highlight: var(--pst-color-primary-highlight);
+    --pst-color-info-text: var(--spark-color-text-inverse);
+    --pst-color-info-bg: var(--pst-color-primary-bg);
+
+    /* Success is success green */
+    --pst-color-success: var(--spark-color-success-soft);
+    --pst-color-success-highlight: var(--spark-color-success-natural);
+    --pst-color-success-text: var(--spark-color-text-inverse);
+    --pst-color-success-bg: var(--spark-color-success-background-inverse);
+
+    /* Warning is warning yellow */
+    --pst-color-warning: var(--spark-color-warning-soft);
+    --pst-color-warning-highlight: var(--spark-color-warning-natural);
+    --pst-color-warning-text: var(--spark-color-text-inverse);
+    --pst-color-warning-bg: var(--spark-color-warning-background-inverse);
+
+    /* Danger is error red */
+    --pst-color-danger: var(--spark-color-error-soft);
+    --pst-color-danger-highlight: var(--spark-color-error-natural);
+    --pst-color-danger-text: var(--spark-color-text-inverse);
+    --pst-color-danger-bg: var(--spark-color-error-background-inverse);
+
+    /* Muted is ? */
+    --pst-color-muted: var(--spark-color-theme-dark-gray800);
+    --pst-color-muted-highlight: var(--spark-color-theme-dark-gray800);
+    --pst-color-muted-text: var(--spark-color-theme-dark-gray50);
+    --pst-color-muted-bg: var(--spark-color-theme-dark-gray800);
+
+    --pst-color-dark: var(--spark-color-theme-dark-gray900);
+    --pst-color-dark-highlight: var(--spark-color-theme-dark-gray800);
+    --pst-color-dark-text: var(--spark-color-theme-dark-gray50);
+    --pst-color-dark-bg: var(--spark-color-theme-dark-gray900);
+
+    --pst-color-light: var(--spark-color-theme-dark-gray50);
+    --pst-color-light-highlight: var(--spark-color-theme-dark-gray100);
+    --pst-color-light-text: var(--spark-color-theme-dark-gray900);
+    --pst-color-light-bg: var(--spark-color-theme-dark-gray50);
+
+    /* White color set - best to think of as inverse */
+    --pst-color-white: var(--spark-color-theme-dark-gray50);
+    --pst-color-white-highlight: var(--spark-color-theme-dark-gray100);
+    --pst-color-white-text: var(--spark-color-white);
+    --pst-color-white-bg: var(--spark-color-theme-dark-gray50);
+
+    /* Black color set - best to think of as inverse */
+    --pst-color-black: var(--spark-color-theme-dark-gray900);
+    --pst-color-black-highlight: var(--spark-color-theme-dark-gray800);
+    --pst-color-black-text: var(--spark-color-black);
+    --pst-color-black-bg: var(--spark-color-theme-dark-gray900);
+
+    /* Layers */
+    --pst-color-background: var(--spark-color-background);
+    --pst-color-on-background: var(--spark-color-layer1);
+    --pst-color-surface: var(--spark-color-layer1);
+    --pst-color-on-surface: var(--spark-color-text-base);
+
+    /* Tables */
+    --pst-color-table: var(--pst-color-on-surface);
+    --pst-color-table-row-hover-bg: var(--spark-color-layer2);
+    --pst-color-table-inner-border: var(--spark-color-border);
+    --pst-color-table-outer-border: var(--pst-color-surface);
+    --pst-color-table-heading-bg: var(--pst-color-surface);
+    --pst-color-table-row-zebra-high-bg: var(--pst-color-on-background);
+    --pst-color-table-row-zebra-low-bg: var(--pst-color-surface);
+    --bs-table-bg: var(--pst-color-background);
+}

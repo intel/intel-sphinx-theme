@@ -1,0 +1,30 @@
+.table tr {
+    box-shadow: inset var(--spark-table-box-shadow-x) var(--spark-table-box-shadow-y)
+        var(--spark-table-box-shadow-blur-radius) var(--spark-table-row-normal-border);
+    background-color: var(--spark-table-row-normal-background-color);
+}
+
+.table thead th {
+    color: var(--spark-table-head-color);
+    box-shadow: inset var(--spark-table-box-shadow-x) var(--spark-table-box-shadow-y)
+        var(--spark-table-box-shadow-blur-radius) var(--spark-table-head-normal-border);
+    background-color: var(--spark-table-head-background-color);
+}
+
+.table td,
+.table thead th {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+td ul li,
+dt {
+    color: var(--spark-color-text-base);
+}
+.table tbody tr:hover {
+    background-color: var(--spark-color-table-row-zebra-hover-bg);
+}
+
+:root[data-theme='dark'] .table {
+    color: var(--spark-color-text-base);
+}

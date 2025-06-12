@@ -1,0 +1,20 @@
+/* Button defaults */
+/* .sd-btn {
+    color: var(--spark-color-text-inverse);
+} */
+
+.sd-btn-outline-warning {
+    color: var(--sd-color-warning-text-outline) !important;
+}
+
+.sd-btn-outline-secondary {
+    color: var(--sd-color-secondary-text-outline) !important;
+}
+
+[class*='sd-btn-outline-'] {
+    border-width: var(--sd-button-border-width, 2px) !important;
+}
+
+[class*='sd-btn-outline-']:hover {
+    border-width: var(--sd-button-border-width, 2px) !important;
+}

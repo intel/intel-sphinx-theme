@@ -1,0 +1,29 @@
+:root {
+    --spark-color-danger: var(--spark-color-coral-shade1);
+    --spark-color-danger-before: var(--spark-color-coral-shade2);
+    --spark-color-attention: var(--spark-color-rust);
+}
+
+html[data-theme='light'] {
+    --spark-color-warning: var(--spark-color-daisy-shade2);
+    --spark-color-warning-before: var(--spark-color-daisy-tint1);
+    --spark-color-info: var(--spark-color-classic-blue);
+    --spark-color-info-before: var(--spark-color-classic-blue-tint2);
+    --spark-color-success-before: var(--spark-color-moss-tint2);
+    --spark-color-success: var(--spark-color-moss-shade2);
+    --pst-color-info: var(--spark-color-classic-blue);
+    --pst-color-info-before: var(--spark-color-classic-blue-tint2);
+    --spark-color-attention-before: var(--spark-color-rust-tint2);
+}
+
+html[data-theme='dark'] {
+    --spark-color-warning: var(--spark-color-daisy-tint1);
+    --spark-color-warning-before: var(--spark-color-daisy-shade2);
+    --spark-color-info: var(--spark-color-energy-blue);
+    --spark-color-info-before: var(--spark-color-energy-blue-shade2);
+    --spark-color-success-before: var(--spark-color-moss-shade2);
+    --spark-color-success: var(--spark-color-moss-tint2);
+    --pst-color-info: var(--spark-color-energy-blue);
+    --pst-color-info-before: var(--spark-color-energy-blue-shade2);
+    --spark-color-attention-before: var(--spark-color-rust-shade1);
+}

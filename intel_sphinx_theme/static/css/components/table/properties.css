@@ -1,0 +1,24 @@
+[data-theme='light'] {
+    --spark-table-head-background-color: var(--spark-color-theme-light-gray75, #f9f9f9);
+    --spark-table-row-normal-background-color: var(--spark-color-theme-light-gray50, #ffffff);
+    --spark-table-row-normal-border: rgba(43, 44, 48, 0.12);
+    --spark-table-head-normal-border: rgba(43, 44, 48, 0.34);
+    --spark-table-head-color: var(--spark-color-theme-light-gray900, #2b2c30);
+    --spark-color-table-row-zebra-hover-bg: #040e3580; /*cobalt shade3 (secondary color with 80 opacity*/
+}
+
+[data-theme='dark'] {
+    --spark-table-head-background-color: var(--spark-color-theme-dark-gray75, #2e2f32);
+    --spark-table-row-normal-background-color: var(--spark-color-theme-dark-gray50, #242528);
+    --spark-table-row-normal-border: rgba(255, 255, 255, 0.12);
+    --spark-table-head-normal-border: rgba(255, 255, 255, 0.34);
+    --spark-table-head-color: var(--spark-color-theme-dark-gray900, #ffffff);
+    --spark-color-table-row-zebra-hover-bg: var(--spark-color-secondary);
+}
+
+:root {
+    --spark-table-box-shadow-x: 0rem;
+    --spark-table-box-shadow-y: -0.0625rem;
+    --spark-table-box-shadow-blur-radius: 0rem;
+    --spark-table-border: 0.0625rem;
+}

@@ -1,0 +1,352 @@
+.navbar-brand img {
+    height: 80%;
+}
+
+.bd-header {
+    background: var(--spark-header-background) !important;
+    box-shadow: var(--spark-header-shadow) var(--spark-header-color-shadow);
+    height: 100%;
+    max-height: 6rem;
+    padding: 0;
+    display: block;
+}
+
+.bd-header #navbar-end,
+.bd-header #navbar-center {
+    gap: 1rem;
+}
+
+.bd-header #navbar-start {
+    gap: 2.5rem;
+}
+
+.bd-header .navbar-nav li a.nav-link {
+    color: var(--spark-header-color) !important;
+    line-height: var(--spark-header-item-line-height);
+}
+
+.bd-header .navbar-nav li a.nav-link.dropdown-item {
+    color: var(--pst-color-text-base) !important;
+}
+
+.bd-header .navbar-nav li a.nav-link.dropdown-item:hover {
+    color: var(--pst-color-text-white, white) !important;
+}
+
+.navbar-brand p,
+.bd-header ul.navbar-nav > li.nav-item.dropdown > .dropdown-toggle,
+.bd-header ul.navbar-nav > li.nav-item.dropdown > .dropdown-toggle:hover {
+    color: var(--spark-header-color);
+}
+
+
+.bd-header .navbar-nav li a.nav-link:hover {
+    font-weight: var(--spark-header-font-weight);
+    background-color: var(--spark-header-hover);
+    color: var(--spark-header-hover-text);
+}
+
+.bd-header .navbar-nav li a.nav-link:active {
+    color: var(--spark-header-color);
+    font-weight: var(--spark-header-font-weight);
+    background-color: var(--spark-header-background-pressed-button);
+}
+
+.bd-header .navbar-nav li a.nav-link:focus {
+    color: var(--spark-header-color);
+}
+
+.bd-header .navbar-nav > .active > .nav-link {
+    color: var(--spark-header-color);
+    font-weight: var(--spark-header-font-weight);
+}
+
+.bd-header .navbar-nav > .active > .nav-link:hover {
+    font-weight: var(--spark-header-font-weight);
+    background-color: var(--spark-header-hover);
+    color: var(--spark-header-hover-text);
+}
+
+.bd-header .navbar-nav > .active > .nav-link:active {
+    color: var(--spark-header-color);
+    font-weight: var(--spark-header-font-weight);
+    background-color: var(--spark-header-background-pressed-button);
+}
+
+.nav-item.current.active {
+    color: var(--spark-header-color);
+    border-bottom: var(--spark-header-border-bottom) solid var(--spark-header-color-active-item);
+}
+
+.bd-header .navbar-nav > .current > .nav-link {
+    border-bottom: none;
+}
+
+.bd-header .navbar-nav .dropdown button {
+    color: var(--spark-header-color);
+}
+
+.bd-header ul.navbar-nav > li.nav-item > .nav-link:hover:before {
+    border-bottom: none !important;
+}
+
+.bd-header ul.navbar-nav > li.nav-item.current > .nav-link:before {
+    border-bottom: none !important;
+}
+
+.bd-header .navbar-nav .dropdown .dropdown-menu {
+    border: 1px solid var(--spark-color-border);
+    box-shadow: 0 0 0.3rem 0.1rem var(--spark-color-shadow);
+    background-color: var(--spark-header-background);
+    padding: 0;
+}
+
+.toc-entry > .nav-link.active {
+    color: var(--spark-color-primary);
+    border-left: 2px solid var(--spark-color-primary);
+    font-weight: var(--spark-header-font-weight);
+}
+
+.nav-link.nav-external:after {
+    font-weight: var(--spark-header-font-weight);
+    content: var(--pst-icon-external-link);
+}
+
+.bd-header label.sidebar-toggle {
+    font-size: var(--pst-font-size-icon);
+    color: var(--spark--header-color);
+}
+
+#navbar-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bd-header .spark-header-line {
+    width: 100%;
+    height: 10px;
+    background: rgb(0, 199, 253);
+    background: linear-gradient(
+        90deg,
+        var(--spark-header-gradient-color-start) 5%,
+        var(--spark-header-gradient-color-center) 50%,
+        var(--spark-header-gradient-color-end) 98.99%
+    );
+}
+
+[data-header='spark-squares'] .bd-header .bd-header__inner {
+    padding-left: 0;
+}
+
+.bd-header .spark-header-s1 {
+    width: 16px;
+    height: 4.6rem;
+    margin-right: 15px;
+    background-color: var(--spark-color-aqua);
+}
+
+.bd-header #spark-header-s2 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 4.6rem;
+    background-color: var(--spark-color-aqua-tint1);
+}
+
+.bd-header #spark-header-s3 {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 1rem;
+    top: 5.6rem;
+    background-color: var(--spark-color-digital-classic-blue);
+}
+
+#spark-header-s2,
+#spark-header-s3 {
+    position: fixed;
+    background-color: var(--spark-header-background);
+    /* transition: top 0.3s; */
+}
+
+#spark-header-s2.hidden,
+#spark-header-s3.hidden {
+    top: -100px;
+}
+
+.bd-header .navbar-header-items {
+    position: absolute;
+    right: 0;
+    padding-left: 2.25rem;
+}
+
+.bd-header .navbar-nav > .active > .nav-link:hover {
+    text-decoration: none;
+}
+
+.bd-header .navbar-nav li a.nav-link:hover {
+    text-decoration: none;
+}
+
+.bd-header #navbar-end {
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.search-button-field,
+.header-button,
+.version-switcher__menu.dropdown-menu,
+header button.btn.version-switcher__button {
+    color: var(--spark-text-color-button-field);
+    border: none;
+    background: none;
+    border-radius: 0;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+}
+
+.version-switcher__menu.dropdown-menu,
+header button.btn.version-switcher__button {
+    border-radius: 0;
+    border-color: var(--spark-text-color-button-field);
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 0;
+}
+
+.search-button-field:hover,
+.header-button:hover,
+.version-switcher__menu.dropdown-menu:hover,
+header button.btn.version-switcher__button:hover {
+    background-color: var(--pst-color-surface);
+    box-shadow: 0 0 0 0.1875rem var(--pst-color-link-hover);
+    color: var(--spark-color-text-base) !important;
+}
+
+.header-button:hover > span::before {
+    color: var(--spark-color-text-base);
+}
+
+kbd {
+    background-color: var(--spark-color-button-field);
+    color: var(--spark-text-color-button-field);
+}
+
+.search-button-field kbd:not(.compound) {
+    border-color: var(--spark-text-color-button-field);
+}
+
+.search-button-field:hover kbd {
+    background-color: transparent;
+    color: var(--spark-color-text-base);
+    border-color: var(--spark-color-text-base);
+}
+
+.pst-navbar-icon {
+    color: var(--spark-text-color-button-field) !important;
+}
+
+.pst-navbar-icon:hover {
+    color: var(--spark-navbar-icon-color) !important;
+}
+
+html .pst-navbar-icon:hover:before{
+    border-bottom: none;
+}
+
+@media (max-width: 960px) {
+    .bd-header .navbar-header-items {
+        right: 2rem;
+        padding-left: 2.25rem;
+    }
+
+    .bd-sidebar-primary .nav-link:focus {
+        color: var(--spark-color-text-base) !important;
+    }
+
+    /*
+    a.navbar-brand.logo {
+        margin-left: 1rem;
+    }*/
+    .nav-item.current.active {
+        border-bottom: var(--spark-header-border-bottom) solid var(--spark-header-color-active-item);
+    }
+
+    ul.navbar-nav li a:hover {
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 1178px) {
+    .navbar-header-items__end {
+        margin-right: 3rem !important;
+    }
+}
+
+.bd-header label.sidebar-toggle {
+    color: var(--spark-color-sidebar-toggle);
+}
+
+@media (min-width: 962px) {
+    .bd-header label.sidebar-toggle {
+        display: none;
+    }
+
+    .search-button-field,
+    .header-button {
+        /* add border once we're out of mobile */
+        border-radius: 0;
+        border-color: var(--spark-text-color-button-field);
+        border-width: 1px;
+        border-style: solid;
+    }
+}
+
+/* Icon replace */
+
+.nav-link.nav-external:after {
+    font-family: 'spark-icon';
+    font-size: 12px;
+    content: '\f1a4';
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* Add here data-mode = dark when there is a moon icon */
+html[data-mode='light'] .theme-switch-button .theme-switch[data-mode='light'],
+html[data-mode='auto'] .theme-switch-button .theme-switch[data-mode='auto'] {
+    display: none;
+}
+
+html[data-mode='light'] .pst-navbar-icon:before {
+    font-family: 'spark-icon';
+    font-size: 24px;
+    content: '\f23b';
+    margin-top: auto;
+}
+
+/* Add here moon icon */
+/* html[data-mode=dark] .pst-navbar-icon:before {
+    font-family: 'spark-icon';
+    font-size: 24px;
+    content: '';
+} */
+
+html[data-mode='auto'] .pst-navbar-icon:before {
+    font-family: 'spark-icon';
+    font-size: 24px;
+    content: '\f23a';
+    margin-top: auto;
+}
+
+.header-button {
+    padding-top: 3px;
+    font-size: 1.5rem; /* 24px */
+    display: inline-flex;
+    align-items: center;
+    height: 42px;
+    width: 42px;
+}
