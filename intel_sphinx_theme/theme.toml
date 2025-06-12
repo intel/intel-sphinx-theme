@@ -1,0 +1,6 @@
+name = "intel_sphinx_theme"
+theme_path = "intel_sphinx_theme"
+
+[theme]
+inherit = "pydata_sphinx_theme"
+# Add necessary theme configurations here
