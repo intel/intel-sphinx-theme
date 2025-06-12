@@ -1,0 +1,11 @@
+button.version-switcher__button {
+    border-radius: 0 !important;
+    line-height: 30px;
+}
+
+/* version switcher coloring is taken care of in the header component */
+
+.version-switcher__menu.dropdown-menu {
+    border-radius: 0 !important;
+    box-shadow: 0 2px 6px #0000004d;
+}

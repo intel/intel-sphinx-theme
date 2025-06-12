@@ -1,0 +1,11 @@
+/* @import './admonitions/index.css'; */
+@import './footer/index.css';
+@import './header/index-tb.css';
+@import './sidebar-primary/index.css';
+@import './sidebar-secondary/index.css';
+/* @import './table/index.css'; */
+@import './text/index.css';
+@import './toctree/index.css';
+@import './typography/index.css';
+@import './version-switcher-dropdown/index.css';
+@import './sphinx-design/index.css';
