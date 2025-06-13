@@ -1,11 +1,7 @@
-Design System Elements
-######################
+Intel Sphinx Theme Components
+############################
 
-This section covers the essential elements of the design system, which include the foundation, components,
-and custom elements. These building blocks provide a cohesive and consistent structure for creating
-a visually appealing and functional user interface.
-
-The visual changes are made based on the [Spark Island Design System](https://spark-island.intel.com/).
+This section introduces the custom components available in the Intel Sphinx theme, as well as integrated PyData theme elements. These building blocks enable you to create cohesive, visually appealing documentation that aligns with the Intel brand. Explore how to leverage both Intel-specific and PyData components to deliver a consistent and functional user experience.
 
 .. toctree::
   :hidden:
