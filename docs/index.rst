@@ -1,4 +1,4 @@
-Spark sphinx theme documentation
+Intel sphinx theme documentation
 ================================
 
 .. toctree::

@@ -1,4 +1,4 @@
-# How to build spark sphinx theme documents locally
+# How to build Intel Sphinx Theme documents locally
 
 ```
 pip install -r ./docs/requirements.txt

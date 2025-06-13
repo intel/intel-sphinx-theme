@@ -55,7 +55,7 @@ Open the _build/html/index.html file in your web browser to view your project's 
 
 From here, you can customize your project's appearance, add content, and configure settings as needed. To learn more about Sphinx and its features, refer to the official `Sphinx documentation <https://www.sphinx-doc.org/en/master/>`_.
 
-How to install spark sphinx theme
+How to install Intel sphinx theme
 *********************************
 
 1. Install the `intel_sphinx_theme` using `pip`:
