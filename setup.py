@@ -30,7 +30,7 @@ setup(
         'sphinx==7.3.7',
         'pydata-sphinx-theme~=0.16.0,!=0.16.1',
         'sphinx-copybutton==0.5.0',
-        'sphinxcontrib-images==0.9.4',
+        'sphinxcontrib-images==1.0.1',
         'setuptools'
     ],
 )
