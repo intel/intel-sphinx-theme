@@ -1,0 +1,343 @@
+div.admonition,
+.admonition {
+    border-color: var(--spark-color-info);
+    background-color: var(--spark-color-layer1);
+}
+
+div.admonition > .admonition-title:after,
+.admonition > .admonition-title:after {
+    color: var(--spark-color-info);
+}
+
+div.admonition.attention,
+.admonition.attention {
+    border-color: var(--spark-color-attention);
+}
+
+div.admonition.attention > .admonition-title:before,
+.admonition.attention > .admonition-title:before {
+    background-color: var(--spark-color-attention-before);
+}
+
+div.admonition.attention > .admonition-title:after,
+.admonition.attention > .admonition-title:after {
+    color: var(--spark-color-attention);
+}
+
+div.admonition.caution,
+.admonition.caution {
+    border-color: var(--spark-color-warning);
+}
+
+div.admonition.caution > .admonition-title:before,
+.admonition.caution > .admonition-title:before {
+    background-color: var(--spark-color-warning-before);
+}
+
+div.admonition.caution > .admonition-title:after,
+.admonition.caution > .admonition-title:after {
+    color: var(--spark-color-warning);
+}
+
+div.admonition.warning,
+.admonition.warning {
+    border-color: var(--spark-color-warning);
+}
+
+div.admonition.warning > .admonition-title:before,
+.admonition.warning > .admonition-title:before {
+    background-color: var(--spark-color-warning-before);
+}
+
+div.admonition.warning > .admonition-title:after,
+.admonition.warning > .admonition-title:after {
+    color: var(--spark-color-warning);
+}
+
+div.admonition.danger,
+.admonition.danger {
+    border-color: var(--spark-color-danger);
+}
+
+div.admonition.danger > .admonition-title:before,
+.admonition.danger > .admonition-title:before {
+    background-color: var(--spark-color-danger-before);
+}
+
+div.admonition.danger > .admonition-title:after,
+.admonition.danger > .admonition-title:after {
+    color: var(--spark-color-danger);
+}
+
+div.admonition.error,
+.admonition.error {
+    border-color: var(--spark-color-danger);
+}
+
+div.admonition.error > .admonition-title:before,
+.admonition.error > .admonition-title:before {
+    background-color: var(--spark-color-danger-before);
+}
+
+div.admonition.error > .admonition-title:after,
+.admonition.error > .admonition-title:after {
+    color: var(--spark-color-danger);
+}
+
+div.admonition.hint,
+.admonition.hint {
+    border-color: var(--spark-color-success);
+}
+
+div.admonition.hint > .admonition-title:before,
+.admonition.hint > .admonition-title:before {
+    background-color: var(--spark-color-success-before);
+}
+
+div.admonition.hint > .admonition-title:after,
+.admonition.hint > .admonition-title:after {
+    color: var(--spark-color-success);
+}
+
+div.admonition.tip,
+.admonition.tip {
+    border-color: var(--spark-color-success);
+}
+
+div.admonition.tip > .admonition-title:before,
+.admonition.tip > .admonition-title:before {
+    background-color: var(--spark-color-success-before);
+}
+
+div.admonition.tip > .admonition-title:after,
+.admonition.tip > .admonition-title:after {
+    color: var(--spark-color-success);
+}
+
+div.admonition.important,
+.admonition.important {
+    border-color: var(--spark-color-attention);
+}
+
+div.admonition.important > .admonition-title:before,
+.admonition.important > .admonition-title:before {
+    background-color: var(--spark-color-attention-before);
+}
+
+div.admonition.important > .admonition-title:after,
+.admonition.important > .admonition-title:after {
+    color: var(--spark-color-attention);
+}
+
+div.admonition.note,
+.admonition.note {
+    border-color: var(--spark-color-info);
+}
+
+div.admonition.note > .admonition-title:before,
+.admonition.note > .admonition-title:before {
+    background-color: var(--spark-color-info-before);
+}
+
+div.admonition.note > .admonition-title:after,
+.admonition.note > .admonition-title:after {
+    color: var(--spark-color-info);
+}
+
+div.admonition.seealso,
+.admonition.seealso {
+    border-color: var(--spark-color-success);
+}
+
+div.admonition.seealso > .admonition-title:before,
+.admonition.seealso > .admonition-title:before {
+    background-color: var(--spark-color-success-before);
+}
+
+div.admonition.seealso > .admonition-title:after,
+.admonition.seealso > .admonition-title:after {
+    color: var(--spark-color-success);
+}
+
+div.admonition.admonition-todo,
+.admonition.admonition-todo {
+    border-color: var(--spark-color-border);
+}
+
+div.admonition.admonition-todo > .admonition-title:before,
+.admonition.admonition-todo > .admonition-title:before {
+    background-color: var(--spark-color-border);
+}
+
+div.admonition.admonition-todo > .admonition-title:after,
+.admonition.admonition-todo > .admonition-title:after {
+    color: var(--spark-color-border);
+}
+
+div.admonition.sidebar.attention,
+.admonition.sidebar.attention,
+div.admonition.sidebar.important,
+.admonition.sidebar.important {
+    border-color: var(--spark-color-attention);
+}
+
+div.admonition.sidebar.caution,
+.admonition.sidebar.caution,
+div.admonition.sidebar.warning,
+.admonition.sidebar.warning {
+    border-color: var(--spark-color-warning);
+}
+
+div.admonition.sidebar.danger,
+.admonition.sidebar.danger,
+div.admonition.sidebar.error,
+.admonition.sidebar.error {
+    border-color: var(--spark-color-danger);
+}
+
+div.admonition.sidebar.hint,
+.admonition.sidebar.hint,
+div.admonition.sidebar.tip,
+.admonition.sidebar.tip,
+div.admonition.sidebar.seealso,
+.admonition.sidebar.seealso {
+    border-color: var(--spark-color-success);
+}
+
+div.admonition.sidebar.note,
+.admonition.sidebar.note,
+div.admonition.sidebar.todo,
+.admonition.sidebar.todo {
+    border-color: var(--spark-color-info);
+}
+
+div.topic,
+div.topic.contents,
+nav.contents,
+aside.topic {
+    background-color: var(--spark-color-surface);
+    border-color: var(--spark-color-border);
+}
+
+aside.sidebar {
+    border: 1px solid var(--spark-color-border);
+    background-color: var(--spark-color-surface);
+}
+
+aside.sidebar p.sidebar-title {
+    border-bottom: 1px solid var(--spark-color-border);
+    font-family: var(--pst-font-family-heading);
+    font-weight: var(--pst-font-weight-heading);
+}
+
+div.admonition.note > .admonition-title:before,
+.admonition.note > .admonition-title:before {
+    background-color: var(--spark-color-info-before);
+}
+
+div.admonition.admonition-todo > .admonition-title:before,
+.admonition.admonition-todo > .admonition-title:before {
+    background-color: var(--spark-color-cobalt-tint1);
+}
+
+div.admonition.admonition-todo,
+.admonition.admonition-todo {
+    border-color: var(--spark-color-cobalt);
+}
+
+div.admonition.admonition-todo > .admonition-title:after,
+.admonition.admonition-todo > .admonition-title:after {
+    color: var(--spark-color-cobalt);
+}
+
+/* Icon replace */
+.admonition > .admonition-title:after,
+div.admonition > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f13a';
+}
+
+div.admonition.attention > .admonition-title:after,
+.admonition.attention > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f105';
+}
+
+div.admonition.caution > .admonition-title:after,
+.admonition.caution > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f106';
+}
+
+div.admonition.danger > .admonition-title:after,
+.admonition.danger > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f106';
+}
+
+div.admonition.error > .admonition-title:after,
+.admonition.error > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f182';
+}
+
+div.admonition.hint > .admonition-title:after,
+.admonition.hint > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f141';
+}
+
+.admonition.important > .admonition-title:after,
+div.admonition.important > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f105';
+}
+
+div.admonition.important > .admonition-title:after,
+.admonition.important > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f1ce';
+}
+
+div.admonition.note > .admonition-title:after,
+.admonition.note > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f1ce';
+}
+
+div.admonition.seealso > .admonition-title:after,
+.admonition.seealso > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f1b1';
+}
+
+div.admonition.tip > .admonition-title:after,
+.admonition.tip > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f141';
+}
+
+div.admonition.warning > .admonition-title:after,
+.admonition.warning > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f106';
+}
+
+div.admonition.admonition-todo > .admonition-title:after,
+.admonition.admonition-todo > .admonition-title:after {
+    font-family: 'spark-icon';
+    font-size: 16px;
+    content: '\f1f3';
+}

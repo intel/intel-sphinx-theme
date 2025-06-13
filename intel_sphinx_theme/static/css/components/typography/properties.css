@@ -1,0 +1,204 @@
+@font-face {
+    font-family: IntelOne-Display;
+    src: url(../../../fonts/IntelOneDisplay/intelone-display-regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Display;
+    src: url(../../../fonts/IntelOneDisplay/intelone-display-bold.woff2);
+    font-weight: 800; /* Bold weight is extra bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Display;
+    src: url(../../../fonts/IntelOneDisplay/intelone-display-light.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Display;
+    src: url(../../../fonts/IntelOneDisplay/intelone-display-medium.woff2);
+    font-weight: bold; /* We use the medium weight for bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-bold.woff2);
+    font-weight: 800; /* Bold weight is extra bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-italic.woff2);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-bolditalic.woff2);
+    font-weight: 800; /* Bold weight is extra bold */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-light.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-lightitalic.woff2);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-medium.woff2);
+    font-weight: bold; /* We use the medium weight for bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Text;
+    src: url(../../../fonts/IntelOneText/intelone-text-mediumitalic.woff2);
+    font-weight: bold; /* We use the medium weight for bold */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-Bold.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-Italic.woff2);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-BoldItalic.woff2);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-Light.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-LightItalic.woff2);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-Medium.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IntelOne-Mono;
+    src: url(../../../fonts/IntelOneMono/IntelOneMono-MediumItalic.woff2);
+    font-weight: 500;
+    font-style: italic;
+}
+
+:root {
+    --spark-font-intel-one-text: IntelOne-Text;
+    --spark-font-intel-one-display: IntelOne-Display;
+    --spark-font-family-monospace: IntelOne-Mono;
+}
+
+:root {
+    --spark-font-size-25: 0.6875rem;
+    --spark-font-size-50: 0.75rem;
+    --spark-font-size-75: 0.875rem;
+    --spark-font-size-100: 1rem;
+    --spark-font-size-200: 1rem;
+    --spark-font-size-300: 1.125rem;
+    --spark-font-size-400: 1.25rem;
+    --spark-font-size-500: 1.5rem;
+    --spark-font-size-600: 1.875rem;
+    --spark-font-size-700: 2.25rem;
+}
+
+:root {
+    --spark-line-height-text: 1.5;
+    --spark-line-height-heading: 1.3;
+}
+
+:root {
+    --spark-letter-spacing-small: 0.015625rem;
+    --spark-letter-spacing-zero: 0rem;
+}
+
+:root {
+    --pst-sidebar-header-font-weight: light;
+    --pst-admonition-font-weight-heading: bold;
+    --pst-font-weight-caption: light;
+    --pst-font-weight-heading: light;
+
+    /* --pst-header-height: 4rem;
+    --pst-header-article-height: calc(var(--pst-header-height)* 2 / 3);
+    --pst-sidebar-secondary: 17rem;
+    --pst-font-size-base: 1rem;
+    --pst-font-size-h1: 2.5rem;
+    --pst-font-size-h2: 2rem;
+    --pst-font-size-h3: 1.75rem;
+    --pst-font-size-h4: 1.5rem;
+    --pst-font-size-h5: 1.25rem;
+    --pst-font-size-h6: 1.1rem;
+    --pst-font-size-milli: 0.9rem;
+    --pst-sidebar-font-size: 0.9rem;
+    --pst-sidebar-font-size-mobile: 1.1rem;
+    --pst-sidebar-header-font-size: 1.2rem; */
+
+    --pst-font-family-base-system:
+        IntelOne-Text, -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial',
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    --pst-font-family-monospace-system:
+        IntelOne-Mono, 'SFMono-Regular', 'Menlo', 'Consolas', 'Monaco', 'Liberation Mono',
+        'Lucida Console', monospace;
+
+    --pst-font-family-base: var(--pst-font-family-base-system);
+    --pst-font-family-heading:
+        var(--spark-font-intel-one-display), -apple-system, 'BlinkMacSystemFont', 'Segoe UI',
+        'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    --pst-font-family-monospace: var(--pst-font-family-monospace-system);
+}
