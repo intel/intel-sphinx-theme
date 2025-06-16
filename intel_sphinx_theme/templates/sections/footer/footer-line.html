@@ -1,0 +1,14 @@
+<div class="bd-footer__inner container">
+    <div class="spark-footer-line-container">
+        {%- for label, url in footer_links %}
+            {%- if label.lower() == 'cookies' %}
+                <a class="spark-footer-element" href="{{ url }}" data-cookie-notice="true">{{ label }}</a>
+            {%- else %}
+                <a class="spark-footer-element" href="{{ url }}">{{ label }}</a>
+            {%- endif %}
+        {%- endfor %}
+    </div>
+    <a href="https://www.intel.com/content/www/us/en/homepage.html" class="spark-homepage spark-footer-link">©{{ current_year }} Intel Corporation</a>
+    <a href="/#" data-wap_ref="dns" id="wap_dns"><small>Your Privacy Choices</small></a>
+    <a href=https://www.intel.com/content/www/us/en/privacy/privacy-residents-certain-states.html data-wap_ref="nac" id="wap_nac"><small>Notice at Collection</small></a>
+</div>

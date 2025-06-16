@@ -1,0 +1,8 @@
+.themed-image img {
+    display: none;
+}
+
+html[data-theme='light'] .themed-image img:first-child,
+html[data-theme='dark'] .themed-image img:last-child {
+    display: inline-block;
+}
