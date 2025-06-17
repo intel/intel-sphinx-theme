@@ -1,4 +1,10 @@
-# Sphinx theme based on Intel's Design System
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/intel/intel-sphinx-theme/badge)](https://scorecard.dev/viewer/?uri=github.com/intel/intel-sphinx-theme)
+[![CodeQL](https://github.com/intel/intel-sphinx-theme/workflows/CodeQL/badge.svg)](https://github.com/intel/intel-sphinx-theme/security/code-scanning)
+
+
+# Intel® Sphinx Theme
+
+Sphinx theme based on Intel's Design System
 
 ## Installation and usage
 
