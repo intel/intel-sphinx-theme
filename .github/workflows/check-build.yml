@@ -36,8 +36,11 @@ jobs:
       - name: Install Dependencies
         shell: bash
         run: |
-          pip install -r ./docs/requirements.txt
-          pip install --upgrade build
+          python -m pip install --upgrade pip==24.0
+          # Use pip to install from requirements.txt with hash checking
+          pip install -r requirements.txt
+          # Pin the build package
+          pip install build==1.1.1
        
       - name: Build
         shell: python
