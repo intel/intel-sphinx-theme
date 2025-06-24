@@ -52,6 +52,9 @@
 - Fix bandit scan
   ([`6728d55`](https://github.com/intel/intel-sphinx-theme/commit/6728d55744f679280f36226d977fbbb818bcfbdc))
 
+- Fix publishing package to pypi
+  ([`ff3b1f5`](https://github.com/intel/intel-sphinx-theme/commit/ff3b1f5fdfecfc0e86ce338e293b42bd8b5d0078))
+
 - Fixing bandit scan error
   ([`5bb7427`](https://github.com/intel/intel-sphinx-theme/commit/5bb7427cfc4d339b62b4ec53eba7e89f7955d0cf))
 
