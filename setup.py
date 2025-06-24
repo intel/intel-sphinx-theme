@@ -25,7 +25,7 @@ setup(
     author='Intel Corporation',
     author_email='',
     description='Intel Branded Sphinx Theme',
-    long_description='Intel branded sphinx theme that inherits from pydata-sphinx-theme',
+    long_description=open('README.md').read(),
     install_requires=[
         'sphinx==7.3.7',
         'pydata-sphinx-theme~=0.16.0,!=0.16.1',
