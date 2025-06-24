@@ -75,6 +75,9 @@
 - Add contributors
   ([`1a5e5b3`](https://github.com/intel/intel-sphinx-theme/commit/1a5e5b35eb236b5838def3287eea50f8b2a3890a))
 
+- Fixing setup.py description
+  ([`3304f88`](https://github.com/intel/intel-sphinx-theme/commit/3304f8855e6f1355e7fd89aea6adeadf02e4202d))
+
 - Updated terminology
   ([`c7882aa`](https://github.com/intel/intel-sphinx-theme/commit/c7882aabe326e7e226482b43b35156960a91d9c7))
 
