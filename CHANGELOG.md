@@ -1,9 +1,35 @@
 # CHANGELOG
 
 
+## v1.0.1 (2025-06-25)
+
+### Bug Fixes
+
+- Avoid run release on bumping version commits
+  ([`eb496e3`](https://github.com/intel/intel-sphinx-theme/commit/eb496e3046a6342a67b68cc306219cb6c2e0f063))
+
+
 ## v1.0.0 (2025-06-25)
 
 ### Chores
+
+- Release v1.0.0
+  ([`afeabfb`](https://github.com/intel/intel-sphinx-theme/commit/afeabfb3209362b82f044c3579f2f6a2916492b0))
+
+- Release v1.0.0
+  ([`9dfb760`](https://github.com/intel/intel-sphinx-theme/commit/9dfb7607a83cc61cd664ffbdba4689cafcf3e5f3))
+
+- Release v1.0.0
+  ([`7f0f4c1`](https://github.com/intel/intel-sphinx-theme/commit/7f0f4c124affaa139eba10b6091eb0456b6ffc58))
+
+- Release v1.0.0
+  ([`d769251`](https://github.com/intel/intel-sphinx-theme/commit/d76925164dd80d458acae30e9b77d892813da741))
+
+- Release v1.0.0
+  ([`c618a0d`](https://github.com/intel/intel-sphinx-theme/commit/c618a0df1de517c8653ed9ddd84da9e4efa7a338))
+
+- Release v1.0.0
+  ([`0db7a05`](https://github.com/intel/intel-sphinx-theme/commit/0db7a053e7d56eecc902523f60d922ccf1652c72))
 
 - **deps**: Bump actions/setup-python from 4.9.1 to 5.6.0
   ([`63cd45d`](https://github.com/intel/intel-sphinx-theme/commit/63cd45d81a7e8d44595c06308fd65e44be6e4f26))
