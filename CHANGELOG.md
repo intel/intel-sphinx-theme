@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-## v1.0.0 (2025-06-24)
+## v1.0.0 (2025-06-25)
 
 ### Chores
 
@@ -74,6 +74,9 @@
 
 - Add contributors
   ([`1a5e5b3`](https://github.com/intel/intel-sphinx-theme/commit/1a5e5b35eb236b5838def3287eea50f8b2a3890a))
+
+- Fixing setup.py description
+  ([`dc28df4`](https://github.com/intel/intel-sphinx-theme/commit/dc28df47ec987a9dc2a981530aaa9103153446bc))
 
 - Fixing setup.py description
   ([`3304f88`](https://github.com/intel/intel-sphinx-theme/commit/3304f8855e6f1355e7fd89aea6adeadf02e4202d))
