@@ -1,15 +1,14 @@
 # Contributors
 
+* Adreanne Bertrand
 * Agustín Francesa-Alfaro
+* Ana Luisa Ponsirenas
 * Ayoob Nabwani
-* Kasia Bojarowska
-* Nikolay Tyukaev
 * Erin Olmon
 * Georgii Kukushin
 * Jacek Jankowski
 * Jeremy Ouillette
 * John Andersen
+* Kasia Bojarowska
 * Nikolay Tyukaev
-* Adreanne Bertrand
-* Ana Luisa Ponsirenas
 * Zack Williams
