@@ -1,13 +1,14 @@
-Agustín Francesa-Alfaro
-Ayoob Nabwani
-Kasia Bojarowska
-Nikolay Tyukaev
-Erin Olmon
-Georgii Kukushin
-Jacek Jankowski
-Jeremy Ouillette
-John Andersen
-Nikolay Tyukaev
-Adreanne Bertrand
-Ana Luisa Ponsirenas
-Zack Williams
+# Contributors
+
+* John Andersen
+* Adreanne Bertrand
+* Kasia Bojarowska
+* Agustín Francesa-Alfaro
+* Georgii Kukushin
+* Jacek Jankowski
+* Ayoob Nabwani
+* Nikolay Tyukaev
+* Erin Olmon
+* Jeremy Ouillette
+* Ana Luisa Ponsirenas
+* Zack Williams
