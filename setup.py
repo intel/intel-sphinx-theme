@@ -28,7 +28,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     install_requires=[
-        'sphinx==7.3.7',
+        'sphinx==7.4.7',
         'pydata-sphinx-theme~=0.16.0,!=0.16.1',
         'sphinx-copybutton==0.5.0',
         'sphinxcontrib-images==0.9.4',
